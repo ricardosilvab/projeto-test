@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* 
+    Paleta de cores: 
+    header: #4C7031
+    logo: #F2AE1C
+*/
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    width: 100%;
+    padding: 10px 60px;
+    background-color: #4C7031;
+}
+header img {
+    width: 250px;
+    background-size: cover;
+}
+header li {
+    display: inline-block;
+    color: white;
+}
