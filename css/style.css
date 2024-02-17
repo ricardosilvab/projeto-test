@@ -7,6 +7,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
@@ -18,7 +19,9 @@ header img {
     width: 250px;
     background-size: cover;
 }
-header li {
-    display: inline-block;
+nav {
+    display: block;
     color: white;
+    padding: 0px 30px;
+    text-align: center;
 }
