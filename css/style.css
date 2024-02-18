@@ -9,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 body {
     font-size: 100%;
@@ -27,9 +28,32 @@ header .logo {
     width: 250px;
 }
 header nav {
-    padding: 20px;
+    gap: 50px;
 }
 header a {
    color: white;
-   font-size: 2em;
+   font-size: 1em;
+}
+header li {
+    list-style: none;
+    display: inline-block;
+    gap: 10px;
+    padding: 30px;
+}
+header a:hover {
+    color: #F2AE1C;
+    transition: 0.5s;
+}
+header .btn-buy {
+    background-color: #F2AE1C;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    display: block;
+    border-radius: 8px;
+    padding: 8px;
+}
+header .btn-buy:hover {
+    background-color: #c49329be;
+    color: white;
 }
