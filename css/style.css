@@ -63,25 +63,19 @@ header .btn-buy:hover {
     background-color: #f6d182;
     color: white;
 }
-.conteudo-principal {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
+/* .conteudo-principal {
+
+} */
 .conteudo-imagem {
     width: 100%;
+    height: 720px;
     background-size: cover;
 }
 .conteudo-escrito {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    position: absolute;
     margin-right: 50%;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
+    margin-top: -30%;
 }
 .conteudo-titulo {
     text-transform: uppercase;
@@ -97,6 +91,8 @@ header .btn-buy:hover {
     font-weight: bolder;
     font-size: 16px;
     cursor: pointer;
+    margin-left: 30%;
+    margin-top: 30px;
 }
 .btn-produtos:hover {
     background-color: #f6d182;;
